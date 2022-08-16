@@ -30,6 +30,8 @@ class LinkedList:
         """
         # Write code here
         newNode = Node(data)
+        newNode.next=head
+        head = newNode
 
         if(self.head):
               current = self.head
