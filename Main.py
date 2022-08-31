@@ -1,14 +1,4 @@
-from typing import Optional
-class Node:
-    """
-    Provide necessary documentation
-    """
-    def _init_(self, data=None, next=None):
-        """
-        Provide necessary documentation
-        """
-        self.data = data
-        self.next = next
+
 from typing import Optional
 class Node:
     """
